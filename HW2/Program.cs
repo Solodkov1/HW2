@@ -58,5 +58,5 @@ void Wikend(int day)
     Console.WriteLine("This is workday");
     }
 }
-Console.WriteLine("Введите число дня недели: ");
+Console.WriteLine("Введите число: ");
 Wikend(Convert.ToInt32(Console.ReadLine()));
